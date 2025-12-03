@@ -1,0 +1,95 @@
+<svg width="300" height="300" viewBox="-150 -150 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Separate curved blades with circular movement - NOT connected -->
+  <g>
+    <!-- Create 8 standalone blades arranged in a pinwheel -->
+    
+    <g transform="rotate(0)">
+      <!-- Single curved blade - standalone, not touching center -->
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(45)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(90)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(135)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(180)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(225)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(270)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+
+    <g transform="rotate(315)">
+      <path
+        d="M 30 -20 Q 50 -35, 70 -55 Q 80 -65, 85 -75 Q 87 -82, 82 -87 Q 75 -90, 68 -85 Q 58 -75, 48 -60 Q 35 -40, 25 -22 Q 22 -15, 28 -18 Z"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </g>
+  </g>
+</svg>
