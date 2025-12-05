@@ -335,7 +335,7 @@ export function HeroSection() {
 
   return (
     <>
-      <section className="relative overflow-hidden px-6 lg:px-12 bg-secondary">
+      <section className="relative overflow-hidden px-6 lg:px-12 bg-secondary min-h-screen flex flex-col">
         <div className="absolute inset-0 pointer-events-none">
           <GalacticBackground />
         </div>
@@ -345,8 +345,8 @@ export function HeroSection() {
           <OctarineLogo variant="dark" size="lg" className="w-full h-full [&_svg]:w-full [&_svg]:h-full" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto py-20 md:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto py-20 md:py-28 flex-1 flex items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] gap-12 items-center w-full">
             {/* Left: Text Content */}
             <div className="animate-fade-in min-w-0">
               {/* Headline */}

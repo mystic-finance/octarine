@@ -50,7 +50,7 @@ export function Navbar() {
             </Link>
 
             <div className="flex items-center gap-8">
-              <Link href="/docs">
+              <a href="https://docs.octarine.finance/" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="ghost"
                   size="sm"
@@ -58,7 +58,7 @@ export function Navbar() {
                 >
                   Docs
                 </Button>
-              </Link>
+              </a>
               <Button
                 size="sm"
                 className="rounded-lg bg-gradient-to-r from-primary to-blue-600 text-white cursor-pointer shadow-[0_0_20px_rgba(41,115,255,0.4)] hover:from-blue-400 hover:to-blue-500 transition-all"
