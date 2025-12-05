@@ -1,15 +1,15 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { IBM_Plex_Sans } from "next/font/google"
-import "./globals.css"
+import type React from "react";
+import type { Metadata } from "next";
+import { IBM_Plex_Sans } from "next/font/google";
+import "./globals.css";
 
 const ibmPlexSans = IBM_Plex_Sans({
   weight: ["300", "400", "500", "600", "700"],
   subsets: ["latin"],
-})
+});
 
 export const metadata: Metadata = {
-  title: "Octarine - Instant Onchain Liquidity for Real World Assets",
+  title: "Octarine - Instant Liquidity for Real-World Assets",
   description:
     "Trade tokenized securities like Private Credit, Treasuries, Commodities, and any RWA with atomic onchain settlement and zero slippage.",
   generator: "v0.app",
@@ -28,18 +28,20 @@ export const metadata: Metadata = {
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/octarine-logo.svg",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased ${ibmPlexSans.className}`}>{children}</body>
+      <body className={`font-sans antialiased ${ibmPlexSans.className}`}>
+        {children}
+      </body>
     </html>
-  )
+  );
 }
