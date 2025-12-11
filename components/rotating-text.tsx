@@ -31,7 +31,7 @@ export function RotatingText({ words, className = "" }: RotatingTextProps) {
 
   return (
     <span
-      className={`${className} inline-block whitespace-nowrap transition-all duration-[400ms] ease-in-out ${
+      className={`${className} inline-block whitespace-nowrap transition-all duration-[400ms] ease-in-out bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-600 bg-clip-text text-transparent ${
         isAnimating ? "opacity-0 translate-y-2 blur-sm" : "opacity-100 translate-y-0 blur-0"
       }`}
     >

@@ -87,7 +87,7 @@ export function SwapCard({ showSettings }: SwapCardProps) {
 
   return (
     <div className="w-full max-w-[460px]">
-      <div className="bg-white border border-gray-200 rounded-2xl p-3 shadow-lg">
+      <div className="bg-white border border-gray-200 rounded-2xl p-3 shadow-lg text-right">
         {/* From Token */}
         <div className="bg-gray-50 rounded-xl p-3 mb-1">
           <div className="flex items-center justify-between mb-2">
