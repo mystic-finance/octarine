@@ -291,3 +291,17 @@
   background-size: 200% 200%;
   animation: glow-move 6s ease infinite;
 }
+
+/* Added white version of glow-move for blue backgrounds */
+.animate-glow-move-white {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.35) 25%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.35) 75%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background-size: 200% 200%;
+  animation: glow-move 6s ease infinite;
+}

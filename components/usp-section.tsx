@@ -161,7 +161,7 @@ export function USPSection() {
 
           {/* Right side - Scrollable features */}
           <div className="lg:w-7/12 lg:flex-1">
-            <div className="min-h-[200vh] space-y-6 lg:min-h-0">
+            <div className="space-y-6 lg:min-h-[200vh]">
               {features.map((feature, index) => (
                 <Card
                   key={index}

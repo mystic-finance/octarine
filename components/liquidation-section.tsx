@@ -30,28 +30,28 @@ export function LiquidationSection() {
 
   return (
     <>
-      <section ref={sectionRef} className="relative px-6 lg:px-12 py-32 lg:py-48">
+      <section ref={sectionRef} className="relative px-4 sm:px-6 lg:px-12 py-16 sm:py-24 lg:py-48">
         <div className="mx-auto max-w-7xl">
-          <div className="relative overflow-hidden rounded-3xl bg-secondary py-20 pl-12 pr-12 shadow-lg lg:py-32 lg:pl-20 lg:pr-32">
+          <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-secondary py-12 px-6 sm:py-16 sm:px-8 lg:py-32 lg:pl-20 lg:pr-32 shadow-lg">
             <div className="absolute inset-0">
               <div className="absolute inset-0 animate-glow-move" />
             </div>
 
-            <div className="absolute right-8 top-1/2 -translate-y-1/2 w-64 h-64 lg:w-80 lg:h-80 opacity-90">
+            <div className="absolute right-4 top-4 w-10 h-10 sm:w-12 sm:h-12 md:right-8 md:top-1/2 md:-translate-y-1/2 md:w-48 md:h-48 lg:w-64 lg:h-64 xl:w-80 xl:h-80 opacity-90">
               <Shield3DGlossy className="w-full h-full" />
             </div>
 
             <div className="relative z-10 max-w-xl">
-              <h2 className="text-balance text-3xl font-bold leading-tight tracking-tight text-foreground lg:text-4xl lg:leading-tight">
+              <h2 className="text-balance text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight tracking-tight text-foreground">
                 Liquidation Fallbacks for RWAs
               </h2>
-              <p className="mt-4 text-pretty text-base leading-snug text-foreground lg:mt-6 lg:text-lg lg:leading-snug">
+              <p className="mt-3 sm:mt-4 lg:mt-6 text-pretty text-sm sm:text-base lg:text-lg leading-relaxed text-foreground">
                 Octarine backstops bad debt and enables RWAs to be onboarded in lending markets even in the absence of
                 AMM liquidity. Reach out to us to know more.
               </p>
-              <div className="mt-8">
+              <div className="mt-6 sm:mt-8">
                 <button
-                  className="px-6 py-4 rounded-xl font-bold tracking-wide shadow-[0_0_20px_rgba(41,115,255,0.4)] bg-gradient-to-r from-primary to-blue-600 text-white cursor-pointer hover:from-blue-400 hover:to-blue-500 transition-all"
+                  className="px-5 py-3 sm:px-6 sm:py-4 rounded-xl font-bold tracking-wide shadow-[0_0_20px_rgba(41,115,255,0.4)] bg-gradient-to-r from-primary to-blue-600 text-white cursor-pointer hover:from-blue-400 hover:to-blue-500 transition-all text-sm sm:text-base"
                   onClick={() => setIsWaitlistOpen(true)}
                 >
                   Join Waitlist
